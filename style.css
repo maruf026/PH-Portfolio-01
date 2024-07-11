@@ -147,3 +147,61 @@ color: orangered;
     /* border: greenyellow solid 2px; */
     padding: 15px 30px 0 30px;
 }
+
+
+/* ############ What I DO ######################## */
+
+.work{
+    height: 80vh;
+    /* border: red solid 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-container{
+    /* border: #ff5704 solid 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+/* }
+.work-para{
+    /* border: blue solid 3px; */
+
+} */
+.work-skills{
+    /* border: 3px solid green; */
+    width: 90%;
+    margin-top: 10px;
+}
+.work-para p{
+    width: 900px;
+    margin-top: 15px;
+}
+.skills p{
+     width: 150px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skills, .skill{
+    text-align: left;
+}
+.skills img{
+    height: 40px;
+    width: 40px;
+    margin:30px 20px 20px 0;
+}
+.skills h3{
+     margin-bottom: 10px;
+}
+.skill{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+}
+
+
+
