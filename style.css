@@ -176,3 +176,45 @@ cursor: pointer;
     margin: auto;
     margin-top: 60px;
 }
+.footer-container{
+    height: 80vh;
+    background-color:rgba(246, 170, 116, 0.164) ;
+    display: flex;
+    gap: 10px;
+}
+.social{
+    margin-left: 100px;
+    /* align-self: center; */
+    margin-top: 100px;
+}
+.par{
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    width: 70%;
+    margin: 15px 0;
+}
+.message{
+    margin-top: 100px;
+    /* align-self: center; */
+}
+.input{
+    padding: 10px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+#message{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none; 
+}
+.input::placeholder,#message::placeholder{
+padding: 10px;
+}
+.message h2{
+    margin-bottom:20px  ;
+}
