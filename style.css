@@ -2,7 +2,7 @@
 .open-sans{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight:400;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
@@ -25,7 +25,7 @@ font-weight: bold;
 cursor: pointer;
 
 }
-.para{
+.para,.skill-des{
     /* width: 70%; */
     color: rgb(71, 71, 71);
     margin-top: 9px;
@@ -121,4 +121,58 @@ cursor: pointer;
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+}
+.skill-container{
+    width: 70%;
+   margin: auto;
+   margin-bottom: 100px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px saddlebrown solid; */
+}
+.skill{
+    width: 170px;
+    /* border: 1px saddlebrown solid; */
+    padding: 15px;
+    margin: 30px 0;
+    box-shadow: 0px 0px 15px  5px rgb(197, 196, 196);
+}
+.skill-des,.colums p{
+    font-size: 12px;
+}
+.skill-txts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume-container{
+    margin-bottom: 100px;
+   
+}
+.colums{
+    display: flex;
+    gap: 100px;
+}
+.c1{
+    padding-left: 150px;
+}
+.c2{
+    padding-right: 150px;
+}
+.colum h3,.colum h4,.colum h6,.colum p,.colum hr{
+    margin-bottom: 10px;
+}
+.resume-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.resume-container button{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
 }
